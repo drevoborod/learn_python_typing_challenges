@@ -1,8 +1,7 @@
 import datetime
-from datetime import date
 
 
-def calculate_age(date_of_birth: date) -> int:
+def calculate_age(date_of_birth: datetime.date) -> int:
     pass
 
 
