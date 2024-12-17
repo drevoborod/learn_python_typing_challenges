@@ -1,5 +1,8 @@
+type UserWithSpendings = tuple[str, int, list[int]]
+
+
 def calculate_total_spent_for_users(
-        users_ids: set[int], users_ids_to_users_map: dict[int, tuple[str, int, list[int]]]
+        users_ids: set[int], users_ids_to_users_map: dict[int, UserWithSpendings]
 ) -> int:
     pass
 
