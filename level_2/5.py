@@ -1,4 +1,7 @@
-def get_current_user() -> tuple[str, int, str]:
+type User = tuple[str, int, str]
+
+
+def get_current_user() -> User:
     pass
 
 
